@@ -1,3 +1,3 @@
  <servers>
-    <server host="mini.local" port="8000" type="tcp"></server>
-  </servers>
+    <server host="moc" port="8080" type="tcp"></server>
+ </servers>
