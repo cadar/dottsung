@@ -1,5 +1,4 @@
  <clients>
      <client host="erl" weight="2" maxusers="1000"/>
      <client host="mini" weight="1" maxusers="1000"/>
-     <client host="fam" weight="2" maxusers="1000"/>
  </clients>
