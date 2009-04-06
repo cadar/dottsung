@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/sw/erlang/share/tsung/tsung-1.0.dtd" [
+ <!ENTITY servers    SYSTEM "/root/.tsung/moc_servers.xml">
+ <!ENTITY load       SYSTEM "/root/.tsung/moc_load.xml">
+ <!ENTITY sessions   SYSTEM "/root/.tsung/moc_sessions.xml">
+ <!ENTITY clients    SYSTEM "/root/.tsung/gen_clients.xml">
+]>
+
+<tsung loglevel="info">
+  &clients;
+
+  &servers;
+
+  &load;
+
+  &sessions;
+
+</tsung>
+
