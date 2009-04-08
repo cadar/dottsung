@@ -1,3 +1,0 @@
- <servers>
-    <server host="lfe" port="8000" type="tcp"></server>
- </servers>

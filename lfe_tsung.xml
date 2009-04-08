@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE tsung SYSTEM "/sw/tsung/share/tsung/tsung-1.0.dtd" [
- <!ENTITY servers    SYSTEM "lfe_servers.xml">
+ <!ENTITY servers    SYSTEM "gen_servers.xml">
  <!ENTITY load       SYSTEM "lfe_load.xml">
  <!ENTITY sessions   SYSTEM "lfe_sessions.xml">
  <!ENTITY clients    SYSTEM "gen_clients.xml">
 ]>
 
-<tsung loglevel="info">
+<tsung loglevel="debug">
   &clients;
 
   &servers;

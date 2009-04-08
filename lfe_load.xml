@@ -1,8 +1,14 @@
 <load>
-    <arrivalphase phase="3"  duration="100" unit="second"><users interarrival="0.005" unit="second"></users></arrivalphase>
-    <arrivalphase phase="4"  duration="100" unit="second"><users interarrival="0.0025" unit="second"></users></arrivalphase>
-    <arrivalphase phase="5"  duration="100" unit="second"><users interarrival="0.001667" unit="second"></users></arrivalphase>
-    <arrivalphase phase="6"  duration="100" unit="second"><users interarrival="0.001250" unit="second"></users></arrivalphase>
-    <arrivalphase phase="7"  duration="100" unit="second"><users interarrival="0.001000" unit="second"></users></arrivalphase>
-    <arrivalphase phase="8"  duration="100" unit="second"><users interarrival="0.000833" unit="second"></users></arrivalphase>
+   <arrivalphase phase="1" duration="100" unit="second">
+      <users interarrival="0.10000" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="2" duration="100" unit="second">
+      <users interarrival="0.05000" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="3" duration="100" unit="second">
+      <users interarrival="0.03333" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="4" duration="100" unit="second">
+      <users interarrival="0.02500" unit="second"></users>
+   </arrivalphase>
 </load>

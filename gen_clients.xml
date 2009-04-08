@@ -1,4 +1,5 @@
  <clients>
-     <client host="erl" weight="2" maxusers="1000"/>
-     <client host="mini" weight="1" maxusers="1000"/>
+     <client host="erl" weight="4" maxusers="1000"/>
+     <client host="mini" weight="3" maxusers="1000"/>
+     <client host="acer" weight="1" maxusers="1000"/>
  </clients>

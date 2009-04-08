@@ -1,3 +1,0 @@
- <servers>
-    <server host="moc" port="8080" type="tcp"></server>
- </servers>
