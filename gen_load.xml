@@ -17,4 +17,10 @@
    <arrivalphase phase="6" duration="200" unit="second">
       <users interarrival="0.01667" unit="second"></users>
    </arrivalphase>
+   <arrivalphase phase="7" duration="200" unit="second">
+      <users interarrival="0.01429" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="8" duration="200" unit="second">
+      <users interarrival="0.01250" unit="second"></users>
+   </arrivalphase>
 </load>

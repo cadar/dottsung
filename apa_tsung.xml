@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE tsung SYSTEM "/sw/tsung/share/tsung/tsung-1.0.dtd" [
- <!ENTITY servers    SYSTEM "moc_servers.xml">
+ <!ENTITY servers    SYSTEM "apa_servers.xml">
  <!ENTITY load       SYSTEM "gen_load.xml">
- <!ENTITY sessions   SYSTEM "moc_sessions.xml">
+ <!ENTITY sessions   SYSTEM "apa_sessions.xml">
  <!ENTITY clients    SYSTEM "gen_clients.xml">
 ]>
 
