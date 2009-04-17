@@ -1,0 +1,20 @@
+<sessions>
+ <session name="http-example" probability="100" type="ts_http">
+      <transaction name="lfeweb_org_25sek_5click">
+        <request><http url="/web/indexnit" method="GET" version="1.1"></http></request>
+	<thinktime value="5"></thinktime>
+
+        <request><http url="/web/indexnit" method="GET" version="1.1"></http></request>
+	<thinktime value="5"></thinktime>
+
+        <request><http url="/web/indexnit" method="GET" version="1.1"></http></request>
+	<thinktime value="5"></thinktime>
+
+        <request><http url="/web/indexnit" method="GET" version="1.1"></http></request>
+	<thinktime value="5"></thinktime>
+
+        <request><http url="/web/indexnit" method="GET" version="1.1"></http></request>
+
+      </transaction>
+    </session>
+</sessions>
