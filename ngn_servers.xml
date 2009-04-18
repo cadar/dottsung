@@ -1,0 +1,3 @@
+ <servers>
+    <server host="fam" port="82" type="tcp"></server>
+ </servers>
