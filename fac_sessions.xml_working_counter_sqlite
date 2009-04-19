@@ -1,0 +1,23 @@
+<sessions>
+<session name='furnace' probability='100'  type='ts_http'>
+ <transaction name="furnace">
+
+<request>
+  <dyn_variable name="ses" regexp='__s=\([0-9]*\)'></dyn_variable>
+<http url='/' version='1.1' method='GET'></http></request>
+
+<request subst="true"><http url='/inc' version='1.1'  contents='__s=%%_ses%%&amp;__u=http%3A%2F%2F10.0.1.3%3A8080%2F' content_type='application/x-www-form-urlencoded' method='POST'></http></request>
+
+<thinktime value="5"></thinktime>
+<request subst="true"><http url='/inc' version='1.1'  contents='__s=%%_ses%%&amp;__u=http%3A%2F%2F10.0.1.3%3A8080%2F' content_type='application/x-www-form-urlencoded' method='POST'></http></request>
+
+<thinktime value="5"></thinktime>
+<request subst="true"><http url='/inc' version='1.1'  contents='__s=%%_ses%%&amp;__u=http%3A%2F%2F10.0.1.3%3A8080%2F' content_type='application/x-www-form-urlencoded' method='POST'></http></request>
+
+<thinktime value="5"></thinktime>
+<request subst="true"><http url='/inc' version='1.1'  contents='__s=%%_ses%%&amp;__u=http%3A%2F%2F10.0.1.3%3A8080%2F' content_type='application/x-www-form-urlencoded' method='POST'></http></request>
+
+ </transaction>
+
+</session>
+</sessions>
